@@ -48,4 +48,7 @@ Route::get('/error/{nama}','ErrorController@pilih');
 
 // React Front end
 Route::view('/react', 'reactApp');
-Route::view('/react/{path}', 'reactApp'); 
+Route::view('/react/{path}', 'reactApp');
+Route::view('/react/articles', 'reactApp');
+Route::view('/react/article/edit/{id}', 'reactApp');
+Route::view('/react/article/{id}', 'reactApp');
