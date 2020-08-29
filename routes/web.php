@@ -44,3 +44,8 @@ Route::get('/kirimemail','MailController@index');
 //Error Handling
 Route::get('/error','ErrorController@index');
 Route::get('/error/{nama}','ErrorController@pilih');
+
+
+// React Front end
+Route::view('/react', 'reactApp');
+Route::view('/react/{path}', 'reactApp'); 

@@ -97,6 +97,9 @@
                      | 
                     <a href="/error">Error Handling</a>
                 </div>
+                <div class="links">
+                    <a href="/react">Move to React</a>
+                </div>
             </div>
         </div>
     </body>
